@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISCP Registration Form</title>
+</head>
+<body>
+    <form>
+        <h1>ISCP Employee Registration Form</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Seal_of_the_International_State_College_of_the_Philippines.png" alt="logo of ISCP" /><br />
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aCUhfPAyDHY?si=1TimI-b6B_TCqEoG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <h1>Basic Information</h1>
+        <label for="firstname">First Name: </label>
+        <input type="text" placeholder=" ex. Melroy" id="firstname" /><br />
+        <label for="lastname">Lastname: </label>
+        <input type="text" placeholder="ex. Johnson" id="lastname" /><br />
+        <label for="place of birth">Place of birth:</label>
+        <input type="text" placeholder="ex. Cavite" id="place of birth" /><br />
+        <label for="birthdate">Birthdate: </label>
+        <input type="date" id="birthdate" /><br />
+        <label for="civil status">Civil Status: </label>
+        <select name="civil status" id="civil status">
+            <option disabled selected>Select one</option>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="separated">Separated</option>
+            <option value="widowed">Widowed</option>
+            <option value="others">Others</option>
+        </select><br />
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+            <option disabled selected>Select one</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select><br />
+        <label for="mother's maiden name">Mother's Maiden Name: </label>
+        <input text="mother's maiden name" placeholder="ex. Abunda" id="mother's maiden name" /><br />
+        <label for="father's name">Father's Name: </label>
+        <input type="text" placeholder="ex. Larrias" id="father's name" /><br />
+
+        <h1>Contact Information</h1>
+        <label for="email">Email: </label>
+        <input type="email" id="email" placeholder="ex. gerry2788@gmail.com" /><br />
+        <label for="contact number mobile">Contact Number (mobile): </label>
+        <input type="text" id="contact number mobile" placeholder="ex. 09123456789" /><br />
+        <label for="contact number telephone">Contact Number (telephone): </label>
+        <input type="text" id="contact number telephone" placeholder="ex. 2134 6789" />
+
+        <h1>Address</h1>
+        <label for="street number">Street Number: </label>
+        <input type="text" id="street number" placeholder="ex. no. 1234" /><br />
+        <label for="street name">Street name: </label>
+        <input type="text" id="street name" placeholder="ex. Camia" /><br />
+        <label for="barangay">Barangay: </label>
+        <input type="text" id="barangay" placeholder="ex. Sabang" /><br />
+        <label for="city/town">City/Town:</label>
+        <input type="text" id="city/town" placeholder="ex. Makati" /><br />
+        <label for="province">Province: </label>
+        <input type="text" id="province" placeholder="ex. Cavite" /><br />
+        <label for="full address">Full address</label>
+        <input type="text" id="full address" placeholder="ex. 123, Nuevo St., Brgy. Sabang, Naic, Cavite" />
+
+        <h1>Government Information</h1>
+        <label for="sss id">SSS ID:</label>
+        <input type="text" id="sss id" placeholder="ex. 000 000 000" maxlenght="9" minlength="9" /><br />
+        <label for="pag-ibig id">Pag-ibig ID:</label>
+        <input type="text" id="pag-ibig id" placeholder="ex. 000 000 000" maxlenght="9" minlength="9" /><br />
+        <label for="philhealth id">PhilHealth ID:</label>
+        <input type="text" id="philhealth id" placeholder="ex. 000 000 000" maxlength="9" minlength="9" /><br />
+        <label for="upload 2x2 picture">Upload 2x2 picture:</label>
+        <input type="file" id="upload 2x2 picture" /><br />
+        <label for="government id">Upload picture of government ID:</label>
+        <input type="file" id="government id" />
+
+        <h1>Account Information</h1>
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="ex. mjmelroy" /><br />
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="at least 6 characters" /><br />
+        <label for="confirm">Confirm password: </label>
+        <input type="password" id="confirm" placeholder="re-enter password" /><br />
+        <label for="profile image">Upload profile image:</label>
+        <input type="file" id="profile image" />
+
+        <h1>Have you experienced any of the following in the last 30 days?</h1>
+        <input type="checkbox" name="sick1" id="sick1" value="coughing"/>
+        <label for="sick1">coughing</label><br />
+        <input type="checkbox" name="sick2" id="sick2" value="fever"/>
+        <label for="sick2">fever</label><br />
+        <input type="checkbox" name="sick3" id="sick3" value="headache"/>
+        <label for="sick3">headache</label><br />
+        <input type="checkbox" name="sick4" id="sick4" value="common cold"/>
+        <label for="sick4">common cold</label><br />
+        <input type="checkbox" name="sick5" id="sick5" value="body ache"/>
+        <label for="sick5">body ache</label><br />
+        <input type="checkbox" name="sick6" id="sick6" value="soar throat"/>
+        <label for="sick6">sore throat</label><br />
+        <input type="checkbox" name="sick7" id="sick7" value="tiredness"/>
+        <label for="sick7">tiredness</label><br />
+        <input type="checkbox" name="sick8" id="sick8" value="loss of smell"/>
+        <label for="sick8">loss of smell</label>
+
+        <h1>Give a short description about yourself</h1>
+        <label for="description">Description:</label><br />
+        <textarea placeholder="enter 3 to 5 sentences" rows="5" cols="40"></textarea><br />
+        <input type="submit" value="submit" />
+    </form>
+    
+    <footer>
+    <p>All rights reserved @Melroi Lardizabal</p>
+    </footer>
+</body>
+</html>

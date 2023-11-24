@@ -1,0 +1,61 @@
+body {font-family: Comic Sans MS; margin: 0px; 
+       background-color: rgb(53, 57, 71); 
+       background-image: url("../img/wave.jpg");
+       background-repeat: repeat-x; 
+       background-attachment: fixed}
+
+#navigation {
+       background-color: rgb(70, 130, 180);
+       color: white;
+       width: 100%;
+       text-align: center;
+       padding: 10px 50px 10px 50px;
+     }
+
+#overlay {margin-left: 50px;
+       margin-right: 50px;
+       background-color: rgba(0, 0, 0, 0.114);
+     }
+
+#choir-section {width: 150px; height: 150px;
+border: 4px solid red; background-color: yellow;}
+
+#choir-image {width: 100%; height: 100%; 
+       object-fit: cover; clip-path: circle(50%)}
+
+#div1 {text-align: center; margin-top: 10px}
+
+#div2 {text-align: center}
+
+#ministries {color: rgb(70, 130, 180)}
+
+#div3 {display: flex;
+       justify-content: center;
+       align-items: flex-end;
+       margin-left: 100px;
+       margin-right: 100px;}
+
+#freehuell {font-size: 200%; color: rgb(70, 130, 180)}
+
+#p1 {font-size: 130%}
+
+#p2 {font-size: 200%}
+
+#pinklink {color: rgb(255, 0, 216)}
+
+#goldencross {display: flex; justify-content: center; align-items: flex-end}
+
+#div4 {text-align: center;
+       list-style-position: inside;
+       margin-left: 150px;
+       margin-right: 150px;
+       margin-top: 20px;}
+
+#crosspic1 {width: 120px}
+
+#crosspic2 {width: 120px}
+
+#foot {text-align: center;
+       margin-top: 50px;
+       font-size: 75%;
+       color: rgb(160, 160, 160)}

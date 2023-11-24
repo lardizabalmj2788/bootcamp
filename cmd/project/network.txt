@@ -1,0 +1,54 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-DE9QOPL
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Realtek PCIe GbE Family Controller
+   Physical Address. . . . . . . . . : 54-A0-50-BC-13-E5
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 1A-CF-5E-90-5B-F9
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 10:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : 1A-CF-5E-90-53-F9
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Broadcom 802.11n Network Adapter
+   Physical Address. . . . . . . . . : 18-CF-5E-90-5B-F9
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::377c:4b1c:4070:1458%12(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.254.105(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Thursday, November 9, 2023 8:48:05 AM
+   Lease Expires . . . . . . . . . . : Sunday, November 12, 2023 8:48:06 AM
+   Default Gateway . . . . . . . . . : 192.168.254.254
+   DHCP Server . . . . . . . . . . . : 192.168.254.254
+   DHCPv6 IAID . . . . . . . . . . . : 186175326
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-29-95-46-61-54-A0-50-BC-13-E5
+   DNS Servers . . . . . . . . . . . : 192.168.254.254
+   NetBIOS over Tcpip. . . . . . . . : Enabled

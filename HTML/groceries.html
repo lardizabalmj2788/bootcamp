@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groceries</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grocery List</h1>
+    <ul>
+        <li>sardines</li>
+        <ul>
+            <li>ligo</li>
+            <li>mega</li>
+        </ul>
+        <li>pancit canton</li>
+        <ul>
+            <li>sweet and spicy x2</li>
+            <li>chili mansi x2</li>
+            <li>Extra spicy x2</li>
+            <ul>
+                <li>Bili ka rin gatas kasi spicy</li>
+            </ul>
+        </ul>
+        <li>kinder joy</li>
+    </ul>
+    <ol>
+        <li>To buy meat, go to the butcher's section</li>
+        <li>Pick out the meat pieces</li>
+        <li>Talk to the butcher to get the receipt</li>
+    </ol>
+
+    <h1>Grocey Stores</h1>
+    <table>
+       <tr>
+        <th>Name</th>
+        <th>Image</th>
+        <th>Description</th>
+        <th>Price</th>
+       </tr>
+       <tr>
+        <td>Ligo Sardine</td>
+        <td><img src="img/ligosardinecan.webp" alt="can of ligo sardine" width="100px"/></td> 
+        <td>A can of Ligo Sardine, 50 grms.</td>
+        <td>25 Php</td>
+       </tr> 
+       <tr>
+       <td>Extra Hot Spicy Pancit Canton</td>
+       <td><img src="img/luckymespicy.webp" alt="spicy canton pack" width="100px"/></td>
+       <td>1 pack of spicy pancit canton</td>
+       <td>10 Php</td>
+       </tr>
+       <tr>
+        <td>KInder Joy</td>
+        <td><img src="img/kinderjoy.webp" alt="two kinderjoy eggs" width="100px"/></td>
+        <td>1 box of kinderjoy, 20 grms</td>
+        <td>60 Php</td>
+       </tr>
+    </table>
+
+    <h1>Milk Tea</h1>
+    <table>
+    <tr>
+        <td colspan="3">
+            <img src="img/milktea.jpg" width="100px" alt="small milk tea"/>
+        </td>
+    </tr>
+    <tr>
+        <td>small</td>
+        <td>medium</td>
+        <td>large</td>
+    </tr>
+    <tr>
+        <td>50 php</td>
+        <td>60 php</td>
+        <td>70 php</td>
+    </tr>
+</table>
+
+        <table>
+            <tr>
+                <td rowspan="3">
+                    <img src="img/milktea.jpg" width="100px" alt="small milk tea"/>
+                </td>
+                <td>small</td>
+                <td>50 php</td>
+            </tr>
+            <tr>
+                <td>medium</td>
+                <td>60 php</td>
+            </tr>
+            <tr>
+                    <td>large</td>
+                    <td>70 php</td>
+            </tr>
+        </table>
+</body>
+</html>
